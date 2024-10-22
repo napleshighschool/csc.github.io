@@ -1,3 +1,4 @@
+//We're using an object for our data structure.  There is not limit to the number of clubs and interests we can add
 const clubs = [
     { name: "Computer Science Club", interests: ["programming", "technology", "web development"] },
     { name: "Academic World Quest", interests: [""]},

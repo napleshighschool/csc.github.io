@@ -1,7 +1,18 @@
 //We're using an object for our data structure.  There is not limit to the number of clubs and interests we can add
 const clubs = [
-    { name: "Computer Science Club", interests: ["programming", "technology", "web development"] },
-    { name: "Academic World Quest", interests: [""]},
+    { name: "Computer Science Club", interests: ["programming"] },
+    { name: "Fellowship of Christian Athletes", interests: ["faith"]},
+    { name: "Scholar Bowl", interests: ["competition"]},
+    { name: "Debate Team", interests: ["competition","writing","debate"]},
+    { name: "DECA", interests: ["business"]},
+    { name: "Model United Nations", interests: ["debate"]},
+    { name: "Crochet Club", interests: ["creativity"]},
+    { name: "Spreading Sunshine", interests: ["creativity","writing"]},
+    { name: "Word Worms", interests: ["creativity","writing"]},
+    { name: "The Spanish Honor Society (La Sociedad Honoraria Hispánica)", interests: ["languages"]},
+    
+
+    
     // Add more clubs and their associated interests
   ];
 

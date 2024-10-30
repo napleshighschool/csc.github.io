@@ -1,15 +1,20 @@
 //We're using an object for our data structure.  There is not limit to the number of clubs and interests we can add
 const clubs = [
-    { name: "Computer Science Club", interests: ["programming"] },
-    { name: "Fellowship of Christian Athletes", interests: ["faith"]},
+    { name: "Computer Science Club", interests: ["programming","technology","science"] },
+    { name: "Fellowship of Christian Athletes", interests: ["faith","encouragement"]},
     { name: "Scholar Bowl", interests: ["competition"]},
     { name: "Debate Team", interests: ["competition","writing","debate"]},
-    { name: "DECA", interests: ["business"]},
-    { name: "Model United Nations", interests: ["debate"]},
+    { name: "DECA", interests: ["business","entrepreneur","finance"]},
+    { name: "Model United Nations", interests: ["debate","research"]},
     { name: "Crochet Club", interests: ["creativity"]},
-    { name: "Spreading Sunshine", interests: ["creativity","writing"]},
+    { name: "Spreading Sunshine", interests: ["creativity","writing","volunteering"]},
     { name: "Word Worms", interests: ["creativity","writing"]},
-    { name: "The Spanish Honor Society (La Sociedad Honoraria Hispánica)", interests: ["languages"]},
+    { name: "The Spanish Honor Society (La Sociedad Honoraria Hispánica)", interests: ["languages","cultures"]},
+    { name: "Student Government", interests: ["leadership"]},
+    { name: "We Dine Together", interests: ["kindness"]},
+    { name: "Future Doctors of America", interests: ["medical field","science"]},
+    { name: "Envirothon", interests: ["competition","science","environment"]},
+
     
 
     

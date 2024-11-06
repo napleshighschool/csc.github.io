@@ -14,7 +14,13 @@ const clubs = [
     { name: "We Dine Together", interests: ["kindness"]},
     { name: "Future Doctors of America", interests: ["medical field","science"]},
     { name: "Envirothon", interests: ["competition","science","environment"]},
-
+    {name: "Green Club", interests: ["environment"]}, 
+    {name: "Academic World Quest", interests: ["competition",]}, 
+    {name: "Alliance Club", interests: ["kindness"]}, 
+    {name: "American Sign Language Club", interests: ["languages"]}, 
+    {name: "Animal Welfare", interests: ["environment", "kindness","volunteering"]},
+    {name: "Arts & Crafts Club", interests: ["creativity"]}, 
+    {name: "
     
 
     

@@ -39,7 +39,8 @@ const clubs = [
     { name: "Scholar Bowl", interests: ["competition"]},
     { name: "Spanish Honor Society (La Sociedad Honoraria Hispánica)", interests: ["languages","cultures"]},
     { name: "Spreading Sunshine", interests: ["creativity","writing","volunteering"]},
-    { name: "Student Government Association", interests: ["leadership"]}, 
+    { name: "Student Government Association", interests: ["leadership"]},
+    { name: "Tabletop Gaming Club", interests: ["gaming","creativity"]}, 
 
     
     // Add more clubs and their associated interests

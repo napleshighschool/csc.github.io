@@ -35,7 +35,7 @@ const clubs = [
     { name: "Kids CAN", interests: ["volunteering","kindness"]},
     { name: "Mu Alpha Theta", interests: ["competition"]}, 
     { name: "Pickleball Club", interests: ["athletics"]}, 
-    { name: Ping Pong Club", interests: ["athletics"]},
+    { name: "Ping Pong Club", interests: ["athletics"]},
     { name: "Scholar Bowl", interests: ["competition"]},
     { name: "Spanish Honor Society (La Sociedad Honoraria Hispánica)", interests: ["languages","cultures"]},
     { name: "Spreading Sunshine", interests: ["creativity","writing","volunteering"]},

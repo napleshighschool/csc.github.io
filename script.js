@@ -26,7 +26,7 @@ const clubs = [
     { name: "Drawing for Dementia", interests: ["art","kindness","volunteering"]},
     { name: "Engineering & Robotics", interests: ["science","leadership"]}, 
     { name: "Fencing Club", interests: ["athletics"]}, 
-    { name: "Film Society", interests: ["film/movies","art"]}, 
+    { name: "Film Society", interests: ["films","art"]}, 
     { name: "Finance Club", interests: ["finance","business"]}, 
     { name: "Future Florida Educators of America", interests: ["leadership","encouragement"]},
     { name: "Interact Club", interests: ["volunteering"]}, 

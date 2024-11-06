@@ -1,6 +1,6 @@
 //We're using an object for our data structure.  There is not limit to the number of clubs and interests we can add
 const clubs = [
-    { name: "Computer Science Club", interests: ["programming","technology","science"] },
+    { name: "Computer Science Club", interests: ["programming","technology","science"]},
     { name: "Fellowship of Christian Athletes", interests: ["faith","encouragement"]},
     { name: "Scholar Bowl", interests: ["competition"]},
     { name: "Debate Team", interests: ["competition","writing","debate"]},
@@ -14,17 +14,20 @@ const clubs = [
     { name: "We Dine Together", interests: ["kindness"]},
     { name: "Future Doctors of America", interests: ["medical field","science"]},
     { name: "Envirothon", interests: ["competition","science","environment"]},
-    {name: "Green Club", interests: ["environment"]}, 
-    {name: "Academic World Quest", interests: ["competition",]}, 
-    {name: "Alliance Club", interests: ["kindness"]}, 
-    {name: "American Sign Language Club", interests: ["languages"]}, 
-    {name: "Animal Welfare", interests: ["environment", "kindness","volunteering"]},
-    {name: "Arts & Crafts Club", interests: ["creativity"]}, 
-    {name: "Beach Volleyball Club", interest: ["athletics"]}, 
-    {name: "Best Buddies", interest: ["kindness","encouragement"]}, 
-    {name: "Bible Study Club", interest: ["faith"]}, 
-    {name: "Chess Club", interest: ["competition"]}, 
-    
+    { name: "Green Club", interests: ["environment"]}, 
+    { name: "Academic World Quest", interests: ["competition",]}, 
+    { name: "Alliance Club", interests: ["kindness"]}, 
+    { name: "American Sign Language Club", interests: ["languages"]}, 
+    { name: "Animal Welfare", interests: ["environment", "kindness","volunteering"]},
+    { name: "Arts & Crafts Club", interests: ["creativity","art"]}, 
+    { name: "Beach Volleyball Club", interests: ["athletics"]}, 
+    { name: "Best Buddies", interests: ["kindness","encouragement"]}, 
+    { name: "Bible Study Club", interests: ["faith"]}, 
+    { name: "Chess Club", interests: ["competition"]}, 
+    { name: "City of Naples Youth Council", interests: ["leadership"]}, 
+    { name: "Culture Club", interests: ["cultures"]}, 
+    { name: "Drawing for Dementia", interests: {"art","kindness","volunteering"]},
+     { name: "Engineering & Robotics", interests: {"science","leadership"]}, 
 
     
     // Add more clubs and their associated interests

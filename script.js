@@ -20,7 +20,10 @@ const clubs = [
     {name: "American Sign Language Club", interests: ["languages"]}, 
     {name: "Animal Welfare", interests: ["environment", "kindness","volunteering"]},
     {name: "Arts & Crafts Club", interests: ["creativity"]}, 
-    
+    {name: "Beach Volleyball Club", interest: ["athletics"]}, 
+    {name: "Best Buddies", interest: ["kindness","encouragement"]}, 
+    {name: "Bible Study Club", interest: ["faith"]}, 
+    {name: "Chess Club", interest: ["competition"]}, 
     
 
     

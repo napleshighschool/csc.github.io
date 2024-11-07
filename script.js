@@ -41,7 +41,7 @@ const clubs = [
     { name: "Spreading Sunshine", interests: ["creativity","writing","volunteering"]},
     { name: "Student Government Association", interests: ["leadership"]},
     { name: "Tabletop Gaming Club", interests: ["gaming","creativity"]}, 
-    { name: "TOMS Campus Club", interests: [""volunteering","kindness"]}, 
+    { name: "TOMS Campus Club", interests: ["volunteering","kindness"]}, 
 
     
     // Add more clubs and their associated interests

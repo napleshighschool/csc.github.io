@@ -42,7 +42,7 @@ const clubs = [
     { name: "Student Government Association", interests: ["leadership"]},
     { name: "Tabletop Gaming Club", interests: ["gaming","creativity"]}, 
     { name: "TOMS Campus Club", interests: ["volunteering","kindness"]}, 
-    { name: "JROTC Drum Corps", interests: ["art", "creativity"]},
+    { name: "JROTC Drum Corps", interests: ["music"]},
 
     
     // Add more clubs and their associated interests

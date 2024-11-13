@@ -31,7 +31,7 @@ const clubs = [
     { name: "Future Florida Educators of America", interests: ["leadership","encouragement"]},
     { name: "Interact Club", interests: ["volunteering"]}, 
     { name: "Journalism Club", interests: ["art", "creativity"]}, 
-    { name: "Key Club", interests: ["leaderships","volunteering"]}, 
+    { name: "Key Club", interests: ["leadership","volunteering"]}, 
     { name: "Kids CAN", interests: ["volunteering","kindness"]},
     { name: "Mu Alpha Theta", interests: ["competition"]}, 
     { name: "Pickleball Club", interests: ["athletics"]}, 

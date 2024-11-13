@@ -19,3 +19,8 @@ a:visited {
 a:hover {
    text-decoration: underline;
 }
+
+h1 {
+   font-family: OpenSans-Bold;
+   src: url(OpenSans-Bold.ttf);
+}

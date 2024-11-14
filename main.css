@@ -25,3 +25,8 @@ div {
    max-width: 800px;
    margin: auto;
 }
+
+body {
+   background-image: url("20NHSMAINIMAGE.png");
+   opacity: 0.5;
+}

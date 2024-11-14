@@ -21,4 +21,6 @@ h4{
 
 div {
    font-family: American Typewriter, serif;
+   max-width: 600px;
+   margin: auto;
 }

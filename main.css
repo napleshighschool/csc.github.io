@@ -1,3 +1,12 @@
+@font-face {
+   font-family: OpenSans-Bold;
+   src: url(OpenSans-Bold.ttf) format('ttf');
+}
+@font-face {
+   font-family: OpenSans-Regular;
+   src: url(OpenSans-Regular.ttf) format('ttf');
+}
+
 table, tr {
    border: 1px solid #343669;
    border-radius: 3px;
@@ -14,4 +23,16 @@ a:visited {
 
 a:hover {
    text-decoration: underline;
+}
+
+h1 {
+   font-family: OpenSans-Bold;
+}
+
+h4{
+   font-family: OpenSans-Bold;
+}
+
+div {
+   font-family: OpenSans-Reguler;
 }

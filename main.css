@@ -23,5 +23,5 @@ div {
    font-family: American Typewriter, serif ;
    max-width: 600px;
    align-items: center;
-   position: fixed;
+   position: absolute;
 }

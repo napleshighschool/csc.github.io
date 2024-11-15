@@ -36,20 +36,20 @@ a:hover {
 
 h1 {
    font-display: swap;
-   font-family: 'Open Sans';
+   font-family: "Open Sans";
    font-style: normal;
    font-weight: 800;
 }
 
 h4{
     font-display: swap;
-   font-family: 'Open Sans';
+   font-family: "Open Sans";
    font-style: normal;
    font-weight: 400;
 }
 
 div {
-   font-family: American Typewriter, serif;
+   font-family: "Open Sans", American Typewriter, serif;
    max-width: 800px;
    margin: auto;
 }

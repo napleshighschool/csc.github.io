@@ -25,5 +25,11 @@ h4{
 }
 
 div {
-   font-family: American Typewriter, serif ;
+   font-family: American Typewriter, serif;
+   max-width: 800px;
+   margin: auto;
+}
+
+body {
+   background-color: rgba(255,215,0, 0.4);
 }

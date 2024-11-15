@@ -35,12 +35,16 @@ a:hover {
 }
 
 h1 {
+   font-display: swap;
    font-family: 'Open Sans';
-   font-weight:800
+   font-style: normal;
+   font-weight: 800;
 }
 
 h4{
+    font-display: swap;
    font-family: 'Open Sans';
+   font-style: normal;
    font-weight: 400;
 }
 

@@ -1,3 +1,20 @@
+/* open-sans-regular - latin */
+@font-face {
+   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: url('open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+ }
+ /* open-sans-800 - latin */
+ @font-face {
+   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 800;
+   src: url('open-sans-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+ }
+
 table, tr {
    border: 1px solid #343669;
    border-radius: 3px;
@@ -17,13 +34,11 @@ a:hover {
 }
 
 h1 {
-   font-family: Impact, fantasy ;
+   font-family: 'Open Sans';
+   font-weight:800
 }
 
 h4{
-   font-family: Impact, fantasy ;
-}
-
-div {
-   font-family: American Typewriter, serif ;
+   font-family: 'Open Sans';
+   font-weight: 400;
 }

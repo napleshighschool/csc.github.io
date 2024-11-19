@@ -59,12 +59,11 @@ h5{
 }
 
 div {
-   font-family: American Typewriter, serif;
+   font-family: "Open Sans", American Typewriter, serif;
    max-width: 800px;
    margin: auto;
 }
 
 body {
    background-image: url(20NHSMAINIMAGE.png);
-   background-color: rgba(255,215,0, 0.4);
 }

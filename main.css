@@ -15,12 +15,6 @@
    src: url('open-sans-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
  }
 
-
-table, tr {
-   border: 1px solid #343669;
-   border-radius: 3px;
-}
-
 a {
    text-decoration: none;
    color: black;

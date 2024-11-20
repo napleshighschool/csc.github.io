@@ -39,7 +39,7 @@ h1 {
    font-family: "Open Sans";
    font-style: normal;
    font-weight: 800;
-   color: #343669
+   color: #FFFFFF;
 }
 
 h4{
@@ -47,7 +47,7 @@ h4{
    font-family: "Open Sans";
    font-style: normal;
    font-weight: 400;
-   color: #343669
+   color: #FFFFFF;
 }
 
 h5{
@@ -55,7 +55,7 @@ h5{
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  color: #343669
+  color: #FFFFFF;
 }
 
 div {
@@ -65,5 +65,5 @@ div {
 }
 
 body {
-   background-image: url(20NHSMAINIMAGE.png);
+   background-color: rgb(0,0,128);
 }

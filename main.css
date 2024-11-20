@@ -39,7 +39,7 @@ h1 {
    font-family: "Open Sans";
    font-style: normal;
    font-weight: 800;
-   color: #FFFFFF;
+   color: #FFD700;
 }
 
 h4{
@@ -47,7 +47,7 @@ h4{
    font-family: "Open Sans";
    font-style: normal;
    font-weight: 400;
-   color: #FFFFFF;
+   color: #FFD700#FFD700#FFD700;
 }
 
 h5{
@@ -62,6 +62,7 @@ div {
    font-family: "Open Sans", American Typewriter, serif;
    max-width: 800px;
    margin: auto; 
+   color: #FFFFFF;
 }
 
 body {

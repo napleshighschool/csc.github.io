@@ -59,6 +59,9 @@ div {
    color: #FFFFFF;
 }
 
+.no-right-click {
+    pointer-events: none;
+}
 body {
    background-color: rgba(0,0,128,0.8);
 }

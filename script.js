@@ -79,3 +79,9 @@ const clubs = [
       resultsContainer.appendChild(clubList);
     }
   }
+
+//Function to disable right-click
+function disableRightClick() { 
+alert("Sorry, right click is not allowed !!"); 
+return false; 
+} 

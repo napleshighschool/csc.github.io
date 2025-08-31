@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Grade Calculator</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        table { border-collapse: collapse; width: 300px; margin-bottom: 20px; }
+        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+        input[type="number"], input[type="text"] { width: 100px; }
+        .course-entry { margin-bottom: 10px; }
+        .remove-btn { margin-left: 10px; color: red; cursor: pointer; }
+    </style>
+</head>
+<body>
+<h2>Course Grade Calculator</h2>
+<table>
+    <tr><td>Q1:</td><td><input type="number" id="q1" value="0" min="0" max="100"></td></tr>
+    <tr><td>Q2:</td><td><input type="number" id="q2" value="0" min="0" max="100"></td></tr>
+    <tr><td>Mid-Term:</td><td><input type="number" id="mid" value="0" min="0" max="100"></td></tr>
+    <tr><td>Q3:</td><td><input type="number" id="q3" value="0" min="0" max="100"></td></tr>
+    <tr><td>Q4:</td><td><input type="number" id="q4" value="0" min="0" max="100"></td></tr>
+    <tr><td>Final:</td><td><input type="number" id="final" value="0" min="0" max="100"></td></tr>
+</table>
+
+<h3>Previous Courses</h3>
+<div id="courses"></div>
+<button onclick="addCourse()">Add Previous Course</button>
+
+<br><br>
+<button onclick="calculateGrade()">Calculate Final Grade</button>
+<h3>Final Grade: <span id="finalGrade">0</span>%</h3>
+<h3>GPA (4.0 Scale): <span id="gpa">0.0</span></h3>
+<h3>Letter Grade: <span id="letter">F</span></h3>
+<h3>Cumulative GPA: <span id="cumulativeGPA">0.0</span></h3>
+
+<script>
+    function addCourse() {
+        const container = document.getElementById('courses');
+        const div = document.createElement('div');
+        div.className = 'course-entry';
+        div.innerHTML = `
+        <input type="text" placeholder="Course Name">
+        GPA: <input type="number" step="0.1" min="0" max="4" class="gpa">
+        Credits: <input type="number" min="0" class="credits">
+        <span class="remove-btn" onclick="removeCourse(this)">Remove</span>
+      `;
+        container.appendChild(div);
+    }
+
+    function removeCourse(button) {
+        const courseDiv = button.parentElement;
+        courseDiv.remove();
+    }
+
+    function calculateGrade() {
+        const q1 = parseFloat(document.getElementById('q1').value) || 0;
+        const q2 = parseFloat(document.getElementById('q2').value) || 0;
+        const mid = parseFloat(document.getElementById('mid').value) || 0;
+        const q3 = parseFloat(document.getElementById('q3').value) || 0;
+        const q4 = parseFloat(document.getElementById('q4').value) || 0;
+        const final = parseFloat(document.getElementById('final').value) || 0;
+
+        const finalGrade = ((q1*0.2) + (q2*0.2) + (mid*0.1) + (q3*0.2) + (q4*0.2) + (final*0.1)).toFixed(2);
+        document.getElementById('finalGrade').textContent = finalGrade;
+
+        const gpa = convertToGPA(finalGrade);
+        document.getElementById('gpa').textContent = gpa.toFixed(1);
+
+        const letter = convertToLetter(finalGrade);
+        document.getElementById('letter').textContent = letter;
+
+        calculateCumulativeGPA(gpa);
+    }
+
+    function convertToGPA(grade) {
+        grade = parseFloat(grade);
+        if (grade >= 93) return 4.0;
+        if (grade >= 90) return 3.7;
+        if (grade >= 87) return 3.3;
+        if (grade >= 83) return 3.0;
+        if (grade >= 80) return 2.7;
+        if (grade >= 77) return 2.3;
+        if (grade >= 73) return 2.0;
+        if (grade >= 70) return 1.7;
+        if (grade >= 67) return 1.3;
+        if (grade >= 65) return 1.0;
+        return 0.0;
+    }
+
+    function convertToLetter(grade) {
+        grade = parseFloat(grade);
+        if (grade >= 93) return "A";
+        if (grade >= 90) return "A−";
+        if (grade >= 87) return "B+";
+        if (grade >= 83) return "B";
+        if (grade >= 80) return "B−";
+        if (grade >= 77) return "C+";
+        if (grade >= 73) return "C";
+        if (grade >= 70) return "C−";
+        if (grade >= 67) return "D+";
+        if (grade >= 65) return "D";
+        return "F";
+    }
+
+    function calculateCumulativeGPA(currentGPA) {
+        let totalPoints = currentGPA * 1; // current course is 1 credit
+        let totalCredits = 1;
+
+        const gpaInputs = document.querySelectorAll('.gpa');
+        const creditInputs = document.querySelectorAll('.credits');
+
+        for (let i = 0; i < gpaInputs.length; i++) {
+            const gpa = parseFloat(gpaInputs[i].value) || 0;
+            const credits = parseFloat(creditInputs[i].value) || 0;
+            totalPoints += gpa * credits;
+            totalCredits += credits;
+        }
+
+        const cumulativeGPA = (totalPoints / totalCredits).toFixed(2);
+        document.getElementById('cumulativeGPA').textContent = cumulativeGPA;
+    }
+</script>
+</body>
+</html>
